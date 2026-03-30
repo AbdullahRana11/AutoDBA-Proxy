@@ -9,7 +9,8 @@ DB_CONFIG = {
     'user': 'autodba_admin',
     'password': 'StrongPassword123!',
     'database': 'autodba_test',
-    'port': 3306
+    'port': 3307,
+    'ssl_disabled': True
 }
 
 NUM_THREADS = 15  # Number of concurrent "users" slamming the database
